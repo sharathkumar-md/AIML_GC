@@ -1,0 +1,39 @@
+# Kelp Automated Deal Flow - Dependencies
+# AI-ML GC 2025-26
+
+# Core
+python-pptx>=0.6.21        # PowerPoint generation
+pandas>=2.0.0              # Data manipulation
+numpy>=1.24.0              # Numerical operations
+
+# LLM Integration
+openai>=1.0.0              # OpenAI API (GPT-4o-mini)
+anthropic>=0.18.0          # Anthropic API (Claude) - optional
+tiktoken>=0.5.0            # Token counting
+
+# Web Scraping
+requests>=2.31.0           # HTTP requests
+beautifulsoup4>=4.12.0     # HTML parsing
+lxml>=4.9.0                # XML/HTML parser
+
+# Document Processing
+PyPDF2>=3.0.0              # PDF reading
+python-docx>=0.8.11        # Word document generation
+openpyxl>=3.1.0            # Excel reading
+
+# Image Processing
+Pillow>=10.0.0             # Image manipulation
+
+# Utilities
+python-dotenv>=1.0.0       # Environment variables
+pydantic>=2.0.0            # Data validation (optional)
+tqdm>=4.65.0               # Progress bars
+colorlog>=6.7.0            # Colored logging
+
+# Testing
+pytest>=7.4.0              # Testing framework
+pytest-cov>=4.1.0          # Coverage reporting
+
+# Development
+black>=23.0.0              # Code formatting
+isort>=5.12.0              # Import sorting

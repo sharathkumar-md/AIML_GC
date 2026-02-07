@@ -1,0 +1,32 @@
+# Environment
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Output (optional - uncomment if you don't want to commit outputs)
+# output/
+
+# Temporary files
+*.tmp
+*.bak
+
+# API keys and secrets
+*.key
+credentials.json
